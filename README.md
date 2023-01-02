@@ -7,4 +7,6 @@ to "Java", then to your jdk folder, then
 copy the "bin" and "lib" folders into a single folder named "jre" and then 
 place the exe file in the jre folder and use it.
 
+The .exe file wont work without the folders....
+
 Hope you like it.... :)
