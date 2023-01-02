@@ -9,4 +9,7 @@ place the exe file in the jre folder and use it.
 
 The .exe file wont work without the folders....
 
+Or else you can just download everything from the following Google Drive Link :
+https://drive.google.com/drive/folders/16I6-T2HtdJbc5igOU73lLbGu_3bh2hBo?usp=sharing
+
 Hope you like it.... :)
