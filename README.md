@@ -7,6 +7,8 @@ to "Java", then to your jdk folder, then
 copy the "bin" and "lib" folders into a single folder named "jre" and then 
 place the exe file in the folder containing the jre folder and use it.
 
+The exe file in the drive link.
+
 The .exe file wont work without the folders....
 
 Or else you can just download everything from the following Google Drive Link :
