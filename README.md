@@ -5,7 +5,7 @@ To use this compiler, go to your c drive
 then to "Program Files",then 
 to "Java", then to your jdk folder, then 
 copy the "bin" and "lib" folders into a single folder named "jre" and then 
-place the exe file in the jre folder and use it.
+place the exe file in the folder containing the jre folder and use it.
 
 The .exe file wont work without the folders....
 
