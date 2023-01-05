@@ -4,11 +4,17 @@ import java.awt.*;
 class UniversalBrainFuckInterpreter extends GifOptionPane{
     public static String inputFilePath = "";
     static String correctPath(String s){
-        String s1 = ""+((char)92);
-        if(s.charAt(0)=='"'&&s.charAt(s.length()-1)=='"'){
-            s=s.substring(1,s.length()-1);
+        s = s.replace((""+((char)92)),("/"));
+        if (s.charAt(0)=='"'||s.charAt(s.length()-1)=='"') {
+            if (s.charAt(0) == '"' && s.charAt(s.length() - 1) == '"') {
+                s = s.substring(1, s.length() - 1);
+            } else if (s.charAt(0) == '"') {
+                s = s.substring(1);
+            }else {
+                s = s.substring(0,s.length()-1);
+            }
         }
-        return s.replace(s1,("/")); //this one only prints the filename not the path.
+        return s;
     }
     static String input(){
         StringBuilder str= new StringBuilder();
