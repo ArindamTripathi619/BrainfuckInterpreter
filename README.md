@@ -11,7 +11,7 @@ The exe file in the drive link.
 
 The .exe file wont work without the folders....
 
-Or else you can just download everything from the following Google Drive Link :
+Or else you can just download everything from the zip file from the following Google Drive Link :
 https://drive.google.com/drive/folders/16I6-T2HtdJbc5igOU73lLbGu_3bh2hBo?usp=sharing
 
 Hope you like it.... :)
