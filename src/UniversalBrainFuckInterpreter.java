@@ -71,6 +71,12 @@ class UniversalBrainFuckInterpreter extends GifOptionPane{
             e.printStackTrace();
         }
     }
+    static void thanks(String str){
+        JLabel label = new JLabel(thanksIcon);
+        label.setHorizontalAlignment(JLabel.CENTER);
+        Object[] exitOptions = {"Exit"};
+        JOptionPane.showOptionDialog(null, label, str, JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, exitOptions, exitOptions[0]);
+    }
     public static void main(String[] args) throws IOException{
         String[] options = {"Continue", "Exit"};
         int choice = JOptionPane.showOptionDialog(null, "Choose :", "Welcome To BrainFuck Interpreter !",JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, icon, options, options[0]);
@@ -100,7 +106,7 @@ class UniversalBrainFuckInterpreter extends GifOptionPane{
             thread1.start();
             thread2.start();
         }else{
-            System.exit(0);
+            thanks("Thanks For Using My Program !");
         }
     }
 }
