@@ -1,4 +1,4 @@
-# BrainfuckInterpreter
+# Brainfuck Interpreter Using Java
 In this repo I am making an Universal Brainfuck Compiler Using just Java.
 
 To use this compiler, go to your c drive 
