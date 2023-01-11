@@ -13,5 +13,8 @@ The .exe file wont work without the folders....
 
 Or else you can just download everything from the zip file from the following Google Drive Link :
 https://drive.google.com/drive/folders/16I6-T2HtdJbc5igOU73lLbGu_3bh2hBo?usp=sharing
+if you download it from here then after downloading open the folder right click on the exe file and go to properties.
+After that go to the security heading and check the Unblock button. This will allow Windows to run the app.
+Oterwise you won't be able to run the app, as windows will think the app is harmful and will try to make you not open it.
 
 Hope you like it.... :)
